@@ -217,6 +217,7 @@ a {
     .left-skills, .right-skills {
         display: inline-block;
         grid-row: 1;
+        padding-top: 0.5rem;
     }
 
     .left-skills {
