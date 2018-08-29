@@ -8,13 +8,6 @@ body {
     height: 100vh;
 }
 
-/* 
-
-.fade-in {
-    opacity: 0;
-} */
-
-
 @keyframes slidein {
     from {
       margin-top: 1rem;
@@ -28,12 +21,14 @@ body {
   }
 
 
-.fade-in {
+.fade-first {
     animation-name: slidein;
     animation-duration: 0.7s;
-
 }
 
+.fade-in {
+    opacity: 0;
+} 
 
 #nav, #about, #design-proj, #dev-proj, #footer {
     padding: 2rem;
