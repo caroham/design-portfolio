@@ -30,7 +30,7 @@ body {
     opacity: 0;
 } 
 
-#nav, #about, #design-proj, #dev-proj, #footer {
+#about, #design-proj, #dev-proj {
     padding: 2rem;
 }
 
@@ -89,13 +89,23 @@ a {
 
 #nav, #footer {
     background-color: #FAF7EF;
+    padding: 1.2rem 2rem;
+}
+
+#nav {
+    z-index: 100;
+    width: calc(100% - 64px);
+    height: 12px;
+    top: 0;
+    position: fixed;
+    border-bottom: 1px solid black;
 }
 
 #about {
     width: auto;
     height: auto;
     background-color: #FAF7EF;
-    padding: 4rem 2rem 6rem 2rem;
+    padding: 6rem 2rem;
 }
 
 .nav-name, ul, .nav-link, .left-skills, .right-skills {
