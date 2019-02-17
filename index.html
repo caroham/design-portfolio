@@ -13,91 +13,97 @@
     <!-- <base href="/"> -->
 </head>
 <body>
-    <div id="top"></div>
-    <div id="nav">
-        <h3 class="nav-name">Carolyn Hampe</h3>
-        <ul id="nav-links">
-            <li class="nav-link"><a href="#design-proj">Design Projects</a></li>
-            <li class="nav-link"><a href="#dev-proj">Development Projects</a></li>
-        </ul>
-    </div>
-    <div id="about">
-        <div class="about-desc fade-first">
-            <h1>Carolyn Hampe is a UI/UX Designer &amp; Full-Stack Developer.</h1>
-            <ul id="about-links">
-                <li class="about-link"><a href="https://www.linkedin.com/in/carolyn-hampe-831b5989/">LinkedIn</a></li>
-                <li class="about-link"><a href="https://github.com/caroham">GitHub</a></li>
-                <li class="about-link"><a href="mailto:carolyn.hampe@gmail.com" target="_blank">Contact</a></li>
+    <div id="main-container">
+        <div id="top"></div>
+        <div id="nav">
+            <h3 class="nav-name">Carolyn Hampe</h3>
+            <ul id="nav-links">
+                <li class="nav-link"><a href="#design-proj">Design Projects</a></li>
+                <li class="nav-link"><a href="#dev-proj">Development Projects</a></li>
             </ul>
         </div>
-        <img id="profile-pic" src="images/profile.jpg" alt="Profile Picture">
+        <div id="about" class="max-w">
+            <div class="about-desc fade-first">
+                <h1>Carolyn Hampe is a UI/UX Designer &amp; Full-Stack Developer.</h1>
+                <ul id="about-links">
+                    <li class="about-link"><a href="https://www.linkedin.com/in/carolyn-hampe-831b5989/">LinkedIn</a></li>
+                    <li class="about-link"><a href="https://github.com/caroham">GitHub</a></li>
+                    <li class="about-link"><a href="mailto:carolyn.hampe@gmail.com" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            <img id="profile-pic" src="images/profile.jpg" alt="Profile Picture">
 
-        <div class="left-skills fade-first">
-            <h4>Design Softwares</h4>
-            <ul>
-                <li>Sketch</li>
-                <li>InDesign</li>
-                <li>Illustrator</li>
-                <li>Photoshop</li>
-                <li>After Effects</li>
-            </ul>
-        </div>    
-        <div class="right-skills fade-first">
-            <h4>Front-End Skills</h4>
-            <ul>
-                <li>JavaScript (ES5/ES6)</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>SASS</li>
-                <li>Angular 4</li>
-                <li>React</li>
-            </ul>
-        </div>  
-    </div>
-    <div id="design-proj" class="proj-container fade-container">
-        <h2>Design Projects</h2>
-        <div class="project-thumbnails">
-            <a href="des-projects/az-ev.html"><div class="project-thumb fade-in">
-                <img src="images/az-er_illo_thumb.jpg">
-                <h3>Arizona Eviction Self-Help Guide</h3>
-            </div></a>
-            <a href="des-projects/signal.html"><div class="project-thumb fade-in">
-                <img src="images/signal_thumb_gradient.jpg">
-                <h3>Signal App Startup</h3>
-            </div></a>
-            <a href="des-projects/explorer.html"><div class="project-thumb fade-in">
-                <img src="images/amnh_thumb.jpg">
-                <h3>Explorer</h3>
-            </div></a>
-            <a href="des-projects/fsm.html"><div class="project-thumb fade-in">
-                <img src="images/fsm_thumb.jpg">
-                <h3>FullStack Modular</h3>
-            </div></a>
-            <a href="des-projects/eventual.html"><div class="project-thumb fade-in">
-                <img src="images/eventual_thumb.jpg">
-                <h3>Eventual</h3>
-            </div></a>
+            <div class="left-skills fade-first">
+                <h4>Design Softwares</h4>
+                <ul>
+                    <li>Sketch</li>
+                    <li>InDesign</li>
+                    <li>Illustrator</li>
+                    <li>Photoshop</li>
+                    <li>After Effects</li>
+                </ul>
+            </div>    
+            <div class="right-skills fade-first">
+                <h4>Front-End Skills</h4>
+                <ul>
+                    <li>JavaScript (ES5/ES6)</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>SASS</li>
+                    <li>Angular 4</li>
+                    <li>React</li>
+                </ul>
+            </div>  
         </div>
-    </div>
-    <div id="dev-proj" class="proj-container">
-        <h2>Development Projects</h2>
-        <div class="project-thumbnails">
-            <a href="dev-projects/cc.html"><div class="project-thumb fade-in">
-                <img src="images/cc_still.jpg">
-                <h3>Communal Canvas</h3>
-            </div></a>
-            <a href="dev-projects/map-news.html"><div class="project-thumb fade-in">
-                <img src="images/map_still.jpg">
-                <h3>Mapped News</h3>
-            </div></a>
-            <a href="dev-projects/wwc.html"><div class="project-thumb fade-in">
-                <img src="images/wwc_still.jpg">
-                <h3>Write Write Cross</h3>
-            </div></a>
+        <div class="bg-white">
+            <div id="design-proj" class="proj-container fade-container max-w">
+                <h2>Design Projects</h2>
+                <div class="project-thumbnails">
+                    <a href="des-projects/az-ev.html"><div class="project-thumb fade-in">
+                        <img src="images/az-er_illo_thumb.jpg">
+                        <h3>Arizona Eviction Self-Help Guide</h3>
+                    </div></a>
+                    <a href="des-projects/signal.html"><div class="project-thumb fade-in">
+                        <img src="images/signal_thumb_gradient.jpg">
+                        <h3>Signal App Startup</h3>
+                    </div></a>
+                    <a href="des-projects/explorer.html"><div class="project-thumb fade-in">
+                        <img src="images/amnh_thumb.jpg">
+                        <h3>Explorer</h3>
+                    </div></a>
+                    <a href="des-projects/fsm.html"><div class="project-thumb fade-in">
+                        <img src="images/fsm_thumb.jpg">
+                        <h3>FullStack Modular</h3>
+                    </div></a>
+                    <a href="des-projects/eventual.html"><div class="project-thumb fade-in">
+                        <img src="images/eventual_thumb.jpg">
+                        <h3>Eventual</h3>
+                    </div></a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="footer">
-        <a href="#top" class="footer-link prev-link">Back to top</a>
+        <div class="bg-white">
+            <div id="dev-proj" class="proj-container max-w">
+                <h2>Development Projects</h2>
+                <div class="project-thumbnails">
+                    <a href="dev-projects/cc.html"><div class="project-thumb fade-in">
+                        <img src="images/cc_still.jpg">
+                        <h3>Communal Canvas</h3>
+                    </div></a>
+                    <a href="dev-projects/map-news.html"><div class="project-thumb fade-in">
+                        <img src="images/map_still.jpg">
+                        <h3>Mapped News</h3>
+                    </div></a>
+                    <a href="dev-projects/wwc.html"><div class="project-thumb fade-in">
+                        <img src="images/wwc_still.jpg">
+                        <h3>Write Write Cross</h3>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="#top" class="footer-link prev-link">Back to top</a>
+        </div>
     </div>
 </body>
 </html>

@@ -13,41 +13,65 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 </head>
 <body>
-    <div id="nav">
-        <h3 class="nav-name"><a href="../index.html#nav">Carolyn Hampe</a></h3>
-        <ul id="nav-links">
-            <li class="nav-link"><a href="../index.html#about">About</a></li>
-            <li class="nav-link"><a href="../index.html#design-proj">Design Projects</a></li>
-            <li class="nav-link"><a href="../index.html#dev-proj">Development Projects</a></li>
-        </ul>
-        <a href="../index.html"><p class="mobile-nav-link">Home</p></a>
-    </div>
-    <div class="project-pg">
-        <div class="title-line fade-first">
-            <h2>Signal App Startup</h2>
-            <p class="project-date">2017</p>
+    <div id="main-container">
+        <div id="nav">
+            <h3 class="nav-name"><a href="../index.html#nav">Carolyn Hampe</a></h3>
+            <ul id="nav-links">
+                <li class="nav-link"><a href="../index.html#about">About</a></li>
+                <li class="nav-link"><a href="../index.html#design-proj">Design Projects</a></li>
+                <li class="nav-link"><a href="../index.html#dev-proj">Development Projects</a></li>
+            </ul>
+            <a href="../index.html"><p class="mobile-nav-link">Home</p></a>
         </div>
-        <img src="../images/signal_main.jpg" class="project-hero fade-first" alt="Contact profile"/>    
-        <p class="project-pg-desc fade-in">A mobile app that reminds users to reach out to contacts who they haven't talked to in a while. The reminders are based on how frequently a user normally talks with their contacts, and notifies users when they fall out of their normal communication cycle. A beta version of the app was formerly on the Google Play store but has been taken off.</p>
-        <ul class="project-credits-block fade-in">
-            <li class="project-credits"><h4>Studio</h4>ABC Design Lab (internal start-up)</li>
-            <li class="project-credits"><h4>My role</h4>UX/UI Designer</li>
-            <li class="project-credits"><h4>Creative Director</h4>Adam Chaloiecheep</li>
-            <li class="project-credits"><h4>Logo Designer</h4>Andrew Boudreaux</li>
-            <li class="project-credits"><h4>Production Designer</h4>Liz Liu</li>
-        </ul>
-        <img src="../images/signal_sync.jpg" class="project-hero fade-in" alt="Syncing contacts"/>
-        <p class="caption fade-in">The app syncs the user's contacts</p>
-        <img src="../images/signal_mockup_list.jpg" class="project-hero fade-in" alt="List of contacts that are highest priority to connect with"/>
-        <p class="caption fade-in">The main screen is a ist of contacts that are highest priority to connect with (based on maintaining communication frequency)</p>
-        <img src="../images/signal_red-gradient.jpg" class="project-hero fade-in" alt="Mockup of screens from the app"/>
-        <p class="caption fade-in">When a user taps on a contact, they get a screen showing frequency of contact, last contact, and a prompt if contact is overdue</p>
-        <img src="../images/signal_frequency.jpg" class="project-hero fade-in" alt="Screens for adjusting frequency of contact and sentiment analysis"/>
-        <p class="caption fade-in">The user can modify how often they want to keep in contact if it's different from their current pattern of contact, and view graphs of how their frequency has changed along with sentiment analysis</p>
-    </div>
-    <div id="footer">
-        <a href="./az-ev.html" class="footer-link prev-link">Previous Project</a>
-        <a href="./explorer.html" class="footer-link next-link">Next Project</a>
+        <div class="bg-white">
+            <div class="project-pg fade-container max-w">
+                <div class="title-line fade-first">
+                    <h2>Signal App Startup</h2>
+                    <p class="project-date">2017</p>
+                </div>
+                <div class="img-block">
+                    <img src="../images/signal_main.jpg" class="project-hero fade-first" alt="Contact profile"/>  
+                </div>  
+                <h3 class="goal-title proj-h3 fade-in">Goal</h3>
+                <p class="goal-text project-pg-desc fade-in">Use technology to help people keep in touch with their contacts</p>
+
+                <h3 class="desc-title proj-h3 fade-in">Description</h3>
+                <p class="project-pg-desc fade-in">A mobile app that reminds users to reach out to contacts who they haven't talked to in a while. The reminders are based on how frequently a user normally talks with each contact, and notifies users when they fall out of their normal communication cycle. A beta version of the app was formerly on the Google Play store but has been taken off.</p>
+                <ul class="project-credits-block fade-in">
+                    <li class="project-credits"><h4>Studio</h4>ABC Design Lab (internal start-up)</li>
+                    <li class="project-credits"><h4>My role</h4>UX/UI Designer</li>
+                    <li class="project-credits"><h4>Creative Director</h4>Adam Chaloiecheep</li>
+                    <li class="project-credits"><h4>Logo Designer</h4>Andrew Boudreaux</li>
+                    <li class="project-credits"><h4>Production Designer</h4>Liz Liu</li>
+                </ul>
+                <div class="img-block">
+                    <img src="../images/signal_sync.jpg" class="project-hero fade-in" alt="Syncing contacts"/>
+                    <p class="caption fade-in">The app syncs the user's contacts to get an idea of how frequently they speak with each contact</p>
+                </div>
+                <div class="img-block">
+                    <img src="../images/signal_mockup_list.jpg" class="project-hero fade-in" alt="List of contacts that are highest priority to connect with"/>
+                    <p class="caption fade-in">The main screen is a ist of contacts that are highest priority to connect with (based on maintaining communication frequency)</p>
+                </div>
+                <div class="challenge-section">
+                    <h3 class="challenge-title proj-h3">Key Challenge</h3>
+                    <p class="challenge-text project-pg-desc">What’s the best way to quickly convey the state of a relationship’s communication and encourage the user to actually reach out to their contact?</p>
+                    <h3 class="challenge-title proj-h3">Solution</h3>
+                    <p class="challenge-text project-pg-desc">We chose to emphasize specific pieces of the information we had, such as the frequency of communication, how many days it has been since last contact, and an immediate visual indication of the “health” of the contact (green smiley as positive, red worried face as negative). One of my suggestions was to simplify the actions by displaying the most common method of contact as the main action button, rather than showing all text/call/video chat options, along with 2nd-level buttons to choose another method of contact, snooze the reminder to reach out, and to hide the contact. This creates a clear primary action based on the user’s behavior pattern so the user has less decisions to make and is more likely to act on a reminder to reach out.</p>
+                </div>
+                <div class="img-block">
+                    <img src="../images/signal_red-gradient.jpg" class="project-hero fade-in" alt="Mockup of screens from the app"/>
+                    <p class="caption fade-in">When a user taps on a contact, they get a screen showing frequency of contact, last contact, and a prompt if contact is overdue</p>
+                </div>
+                <div class="img-block">
+                    <img src="../images/signal_frequency.jpg" class="project-hero fade-in" alt="Screens for adjusting frequency of contact and sentiment analysis"/>
+                    <p class="caption fade-in">The user can modify how often they want to keep in contact if it's different from their current pattern of contact, and view graphs of how their frequency has changed along with sentiment analysis</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="./az-ev.html" class="footer-link prev-link">Previous Project</a>
+            <a href="./explorer.html" class="footer-link next-link">Next Project</a>
+        </div>
     </div>
 </body>
 </html>

@@ -57,9 +57,22 @@
     font-size: 1rem;
 }
 
+.challenge-section {
+    padding: 1rem 0 8rem 0;
+}
 
-.challenge-section .challenge-text {
-    padding: 0.5rem 0 2rem 0;
+.challenge-section .challenge-text:last-of-type {
+    padding-bottom: 0;
+}
+
+.proj-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.img-block {
+    padding-bottom: 2rem;
 }
 
 @media only screen and (max-width: 480px){
@@ -79,7 +92,7 @@
     .project-pg-desc {
         font-size: 1.2rem;
         line-height: 2rem;
-        padding: 2rem 0 4rem 0;
+        padding: 0.8rem 0 3rem 0;
     }    
     .mobile-nav-link {
         float: right;
@@ -111,8 +124,8 @@
         grid-column: 3;
         grid-row: 1;
     }
-    .project-pg-desc {
-        padding-right: 25%;
+    .project-pg-desc, .challenge-section .project-pg-desc {
+        padding-right: 15%;
     }
 }
 

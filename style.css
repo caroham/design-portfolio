@@ -8,6 +8,16 @@ body {
     height: 100vh;
 }
 
+.max-w {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-white {
+    width: 100%;
+    background-color: #fff;
+}
+
 @keyframes slidein {
     from {
       margin-top: 1rem;
@@ -70,7 +80,6 @@ p, li {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
-    padding-bottom: 2rem;
 }
 
 
