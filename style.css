@@ -164,7 +164,7 @@ a {
 .footer-link {
     display: inline;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: semibold;
     font-size: 0.8rem;
 }
 
