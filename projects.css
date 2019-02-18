@@ -1,3 +1,7 @@
+#nav {
+    background-color: #fff;
+}
+
 .project-pg {
     padding: 2rem;
 }
@@ -73,6 +77,19 @@
 
 .img-block {
     padding-bottom: 4rem;
+}
+
+.process {
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+.process-title {
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 480px){

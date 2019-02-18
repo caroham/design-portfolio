@@ -17,5 +17,14 @@ $(document).ready(function() {
                 $(this).animate({'opacity':'1'}, 500);
             }
         });
+
+        let position = $(window).scrollTop();
+        let aboutH = $('#about').height();
+        if(position >= (aboutH+192)){
+            $("#nav").addClass("white-transition");
+        }
+        if(position < (aboutH+192)) {
+            $("#nav").removeClass("white-transition");
+        }
     });
 });

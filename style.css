@@ -44,7 +44,7 @@ body {
     padding: 2rem;
 }
 
-#about, #design-proj, #dev-proj, .project-pg {
+#design-proj, #dev-proj, .project-pg {
     background-color: white;
 }
 
@@ -55,12 +55,14 @@ h1 {
   
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     line-height: 1.4rem; 
+    font-weight: 400;
 }
 
 h4 {
@@ -74,12 +76,14 @@ p, li {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     line-height: 1.4rem;
+    font-weight: 400;
 }
 
 .caption {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     line-height: 1.2rem;
+    font-weight: 400;
 }
 
 
@@ -93,11 +97,10 @@ a {
     color: black;
     text-decoration: none;
 
-    font-weight: 800;
+    font-weight: 600;
 }
 
 #nav, #footer {
-    background-color: #FAF7EF;
     padding: 1.2rem 2rem;
 }
 
@@ -108,13 +111,29 @@ a {
     top: 0;
     position: fixed;
     border-bottom: 1px solid black;
+    background-color: #FAF7EF;
+    transition: background-color 0.5s ease;
+}
+
+#nav.white-transition {
+    background-color: #fff;
+}
+
+#footer {
+    /* border-top: 1px solid black; */
+    background-color: #FAF7EF;
 }
 
 #about {
     width: auto;
     height: auto;
-    background-color: #FAF7EF;
     padding: 6rem 2rem;
+    /* background-color: rgb(255, 179, 116); */
+    background-color: #FAF7EF;
+}
+
+#about-contents {
+    padding-top: 1.5rem;
 }
 
 .nav-name, ul, .nav-link, .left-skills, .right-skills {
@@ -244,7 +263,7 @@ a {
 /* about */
 
 
-    #about  {
+    #about-contents  {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -298,7 +317,7 @@ a {
 }
 
 @media only screen and (min-width: 1024px){
-    #about  {
+    #about-contents  {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
