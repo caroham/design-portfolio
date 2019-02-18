@@ -79,7 +79,7 @@ p, li {
 .caption {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
-    line-height: 1rem;
+    line-height: 1.2rem;
 }
 
 
@@ -292,7 +292,7 @@ a {
     }
 
     .caption {
-        width: 25%;
+        width: 30%;
     }
 
 }
