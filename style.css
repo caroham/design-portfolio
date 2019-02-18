@@ -55,19 +55,19 @@ h1 {
   
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     line-height: 1.4rem; 
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h4 {
     font-family: 'PT Serif', serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.8rem;
     line-height: 1.4rem;
 }
@@ -97,7 +97,7 @@ a {
     color: black;
     text-decoration: none;
 
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #nav, #footer {
@@ -164,7 +164,7 @@ a {
 .footer-link {
     display: inline;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.8rem;
 }
 
