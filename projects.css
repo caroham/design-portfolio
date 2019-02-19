@@ -80,8 +80,10 @@
 }
 
 .process {
-    background-color: #d6f3e7;
+    /* background-color: #f3f3f3; */
+    /* background-color: #d6f3e7; */
     /* background-color: rgb(243, 233, 223); */
+    background-color: #FAF7EF;
     padding-bottom: 4rem;
 }
 
@@ -186,7 +188,7 @@
     .project-2-stack {
         grid-column: 1;
     }
-    .mult-img-block .project-pg-desc {
+    .mult-img-block .right {
         grid-column: 3;
         grid-row: 1;
     }
