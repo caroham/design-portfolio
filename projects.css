@@ -220,7 +220,8 @@
     .project-pg-desc {
         font-size: 1.2rem;
         line-height: 2rem;
-        padding: 0.8rem 0 3rem 0;
+        padding-top: 0.8rem;
+        padding-bottom: 3rem;
     }    
     .mobile-nav-link {
         float: right;
