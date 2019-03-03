@@ -73,12 +73,20 @@
 
 /* Challenge Section */
 
-.challenge-title {
-    font-size: 1rem;
+.key-challenge {
+    padding-bottom: 3rem;
 }
 
-.challenge-section {
-    padding: 1rem 0 8rem 0;
+.challenge-title {
+    font-size: 1rem;
+    /* font-family: 'PT Serif', serif; */
+}
+
+.challenge-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 3rem;
 }
 
 .challenge-section .challenge-text:last-of-type {
@@ -201,6 +209,32 @@
 
     .process-content p.mult-img-left { 
         margin-right: 2rem;
+    }
+
+    /* Challenge Section */
+
+    .challenge-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 6rem;
+        padding-bottom: 8rem;
+    }
+
+    .key-challenge {
+        grid-column: 1;
+    }
+
+    .solution {
+        grid-column: 2;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    /* Challenge Section */
+
+    .challenge-section {
+        display: block;
+        padding-bottom: 4rem;
     }
 }
 
