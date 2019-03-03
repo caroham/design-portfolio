@@ -242,6 +242,13 @@
     .process .process-desc-main {
         padding: 0 0 4rem 0;
     }
+    .mobile-nav-link {
+        float: right;
+        border-bottom: 1px solid black;
+        line-height: 1rem;
+        margin-top: -0.2rem;
+        font-weight: 500;
+    }
 }
 
 @media only screen and (min-width: 780px){
@@ -257,12 +264,6 @@
         padding-top: 0.8rem;
         padding-bottom: 3rem;
     }    
-    .mobile-nav-link {
-        float: right;
-        border-bottom: 1px solid black;
-        line-height: 1rem;
-    }
-
 }
 
 @media only screen and (max-width: 480px){
@@ -274,12 +275,6 @@
 
     .process-content {
         padding: 0 1.5rem 0 1.5rem;
-    }
-
-    .mobile-nav-link {
-        float: right;
-        border-bottom: 1px solid black;
-        line-height: 1rem;
     }
 
     .process .process-desc-main {
