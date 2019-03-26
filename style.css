@@ -21,7 +21,7 @@ body {
 }
 
 #about, #design-proj, #dev-proj {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 #design-proj, #dev-proj, .project-pg {
@@ -111,12 +111,12 @@ a {
 /* Nav & Footer */
 
 #nav, #footer {
-    padding: 1.2rem 2rem;
+    padding: 1.2rem 3rem;
 }
 
 #nav {
     z-index: 100;
-    width: calc(100% - 64px);
+    width: calc(100% - 6rem);
     height: 12px;
     top: 0;
     position: fixed;
@@ -172,7 +172,7 @@ a {
 #about {
     width: auto;
     height: auto;
-    padding: 6rem 2rem;
+    padding: 6rem 3rem;
     /* background-color: rgb(255, 179, 116); */
     background-color: #FAF7EF;
 }
@@ -219,7 +219,15 @@ a {
 }
 
 .proj-container h2 {
-    padding: 3rem 0 2rem 0;
+    padding-top: 3rem;
+}
+
+.proj-cont-head {
+    padding-bottom: 2rem;
+}
+
+.personal-note {
+    display: block;
 }
 
 @media only screen and (min-width: 1024px){
@@ -311,6 +319,10 @@ a {
     #nav-links, .left-skills, .right-skills {
         display: none;
     }
+
+    #profile-pic {
+        margin-top: 2rem;
+    }
 }
 
 @media only screen and (min-width: 481px){
@@ -322,10 +334,6 @@ a {
 
     h2 {
         font-size: 2rem;
-    }
-
-    #profile-pic {
-        margin-top: 2rem;
     }
 }
 
