@@ -22,6 +22,29 @@
     padding-bottom: 0.8rem;
 }
 
+.proj-desc-list {
+    list-style: square;
+    margin-left: 2rem;
+
+}
+
+.proj-desc-list li { 
+    padding-bottom: 0.5rem;
+}
+.project-pg-desc.short-bottom-pad {
+    padding-bottom: 1rem;
+}
+
+ul.tech-credits {
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.tech-credits li {
+    padding-bottom: 0;
+}
+
+
 
 /* Header */
 
@@ -323,18 +346,41 @@
 }
 
 @media only screen and (min-width: 481px){
+    /* .project-pg-desc, .proj-desc-list li {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }  
+    .project-pg-desc {
+        padding-bottom: 3rem;
+    } */
     .project-pg-desc {
         font-size: 1.2rem;
         line-height: 2rem;
-        /* padding-top: 0.8rem; */
         padding-bottom: 3rem;
     }    
+    .proj-desc-list li {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
 }
 
 @media only screen and (max-width: 480px){
+    /* .project-pg-desc, .proj-desc-list li {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    } */
     .project-pg-desc {
         font-size: 1rem;
         line-height: 1.8rem;
+    }
+
+    .proj-desc-list li {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .project-pg-desc {
         padding: 0.8rem 0 2rem 0;
     }
 

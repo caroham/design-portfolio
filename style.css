@@ -80,7 +80,7 @@ h4 {
     line-height: 1.4rem;
 }
 
-p, li {
+p, li, .personal-note {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     line-height: 1.4rem;
@@ -226,9 +226,9 @@ a {
     padding-bottom: 2rem;
 }
 
-.personal-note {
+/* .personal-note {
     display: block;
-}
+} */
 
 @media only screen and (min-width: 1024px){
     #about-contents  {
