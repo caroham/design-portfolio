@@ -9,9 +9,11 @@
 }
 
 .proj-h3 {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
+    font-weight: 500; */
     font-size: 1.2rem;
-    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .next-link {
@@ -156,11 +158,10 @@ ul.tech-credits {
 
 .process-title {
     padding: 2rem 0 2rem 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    /* font-family: 'Cousine', monospace; */
-    /* font-family: 'PT Serif', serif; */
-    font-weight: 400;
+    /* font-family: 'Montserrat', sans-serif; 
+    font-weight: 400; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     font-size: 2rem;
     text-align: center;
     margin: 1rem 0 4rem 0;
@@ -255,7 +256,7 @@ ul.tech-credits {
 
    .intro-section {
         display: grid;
-        grid-column-gap: 4rem;
+        grid-column-gap: 8rem;
         grid-row-gap: 4rem;
         padding-bottom: 8rem;
     }
