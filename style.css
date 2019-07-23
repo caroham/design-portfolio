@@ -184,8 +184,8 @@ a {
 #profile-pic {
     width: 120px;
     height: 120px;
-    clip-path: circle(60px at center);
-    -webkit-clip-path: circle(60px at center); 
+    /* clip-path: circle(60px at center);
+    -webkit-clip-path: circle(60px at center);  */
 }
 
 .about-desc h1 {
